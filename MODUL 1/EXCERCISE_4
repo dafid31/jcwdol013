@@ -1,0 +1,57 @@
+// ----------------------------------------------------------------
+
+// EXCERCISE 1
+function trianglePanttern(height){
+    let counter=1;
+    // looping jumlah baris
+    for (let i = 1;  i <= height ;i ++) {
+        let row="";
+        // looping jumlah item based on baris keberapa
+     for(let j = 1;j<=i;j++){
+
+       row += (counter < 10 ? "0":"") + counter +" ";
+        counter++;
+     }
+     console.log(row);
+        
+    }
+}
+trianglePanttern(4);
+
+// Number 2
+
+/* SET number 
+LOOP number
+IF number multiple 3 Replace to FIZZ 
+IF number multiple 5 Replace to BUZZ
+IF number multiple 3 * 5 Replace to FIZZBUZZ
+
+*/ 
+
+let LoopNumber=(number)=>{
+
+    let recordLoop=[];
+
+    for (let i = 1; i <= number; i++) {
+        if (i % 3 === 0 & i % 5 ===0 ) {
+        recordLoop.push("FizzBuzz")
+        }else if (i % 5 ===0){
+            recordLoop.push("Buzz");
+        }else if(i % 3 === 0){
+        recordLoop.push("Fizz");
+        }else{
+            recordLoop.push(i.toString());
+        }
+    }
+    return recordLoop;
+    }
+
+let recordLoop=LoopNumber(6);
+let recordLoop2=LoopNumber(30);
+
+console.log(recordLoop.join(' '));
+console.log(recordLoop2.join(' '));
+
+// Number 3
+
+
