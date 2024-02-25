@@ -1,0 +1,28 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    line-height: 10px;
+}
+
+a:visited{
+color: black;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+.box{
+    border: 3px double brown;
+    width: 200px;
+    height: 200px;
+    background-color:linear-gradient(cornflowerblue ,red);
+    background: linear-gradient(90deg,blue,cornflowerblue);
+
+}
+
+form{
+    width: 60%;
+}
