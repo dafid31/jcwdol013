@@ -1,0 +1,47 @@
+.MyBG{
+    height: 100vh;
+    background: url("../assets/image/background.jpg");
+}
+
+.intro{
+    height: 300px;
+   
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow:  2px 2px black ;
+    letter-spacing: 4px;
+}
+
+.trending{
+    height: auto;
+    background: url("../assets/image/update/all-anime.jpg");
+    background-size: cover;
+}
+.update{
+    height: auto;
+    background: url("../assets/image/trending/tensura.jpg");
+    background-size: cover;
+}
+
+.movieWrapper{
+
+}
+
+.movieImage{
+    height: auto; 
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.Images{
+    height: 300px;
+}
