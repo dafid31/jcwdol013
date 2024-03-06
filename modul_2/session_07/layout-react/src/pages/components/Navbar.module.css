@@ -1,0 +1,22 @@
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: tomato;
+    border: 2px 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar.left{
+
+    border: 2px solid red;
+    width: 30%;
+    height: 80px;
+    line-height: 80px;
+    
+}
+.navbar.right{
+    
+    border: 2px solid red;
+    width: 30%;
+}

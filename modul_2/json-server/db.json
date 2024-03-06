@@ -1,0 +1,17 @@
+{
+    "superheroes":[
+        {
+            "id":1,
+            "name":"super dede",
+            "color" : "red",
+            "superpower":"one for all"
+        },
+        
+        {
+            "id":2,
+            "name":"super toto",
+            "color" : "black",
+            "superpower":"all for one "
+        }
+    ]
+}
