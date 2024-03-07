@@ -2,7 +2,9 @@ import React from "react";
 
 export default function Biodata(){
 return(
-    <div></div>
+    <div className="text-center">
+        <h1>HAI</h1>
+    </div>
 )
 
 }
