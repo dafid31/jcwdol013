@@ -1,7 +1,7 @@
 interface BiodataCardProps {
     label: string; // Assuming label is of type string, change it accordingly
     value: string; // You might want to replace 'any' with the actual type of 'value'
-    icons: string; // You might want to replace 'any[]' with the actual type of 'icons'
+    icons: React.ReactNode; // You might want to replace 'any[]' with the actual type of 'icons'
     link: string; // Assuming link is of type string, change it accordingly
   }
 

@@ -57,7 +57,7 @@ export default function Biodata(){
                             label={item.label} 
                             value={item.value} 
                             icons={handleIcon(item.icons)} 
-                            link={item.link} 
+                            link={item.link || ""}
                             key={item.id}
                         />
                     )
