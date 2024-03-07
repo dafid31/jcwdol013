@@ -1,4 +1,3 @@
-import React from "react";
 
 export default function Nav(){
     return(
@@ -11,7 +10,7 @@ export default function Nav(){
                 </a>
                 <div className="flex items-center space-x-6 rtl:space-x-reverse">
                 
-            <a href="#" className="text-sm  text-blue-600 dark:text-blue-500 hover:underline font-bold text-xl ">dafDev</a>
+            <a href="#" className="text-xl text-blue-600 dark:text-blue-500 hover:underline font-bold ">dafDev</a>
         </div>
             </div>
         </nav><nav className="bg-gray-50 dark:bg-gray-700">

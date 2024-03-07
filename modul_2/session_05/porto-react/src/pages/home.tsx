@@ -1,4 +1,4 @@
-import React from "react";
+
 import BiodataCard from "../components/BiodataCard";
 import {FiUser,FiHome, FiPhone, FiMail, FiLinkedin, FiMap, FiWifi, } from "react-icons/fi"
 import dataBio from "../constants/databio"
