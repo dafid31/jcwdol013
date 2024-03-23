@@ -41,7 +41,7 @@ export default function Home() {
           </p>
         </div>
         <div className="container flex flex-col items-center justify-center py-8 mx-auto rounded-lg md:p-1 p-3">
-          <Hero src={"Hero.jpg"} />
+          <Hero src={"Home.jpg"} />
         </div>
         <div className="my-auto mx-auto py-10">
 
