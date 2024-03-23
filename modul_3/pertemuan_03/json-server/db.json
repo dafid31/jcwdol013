@@ -1,0 +1,36 @@
+{
+    "Expenses":[
+        {
+            "id":1,
+            "name":"dafid",
+            "nominal":2000000,
+            "category":"transportation"
+
+        },
+
+        {
+            "id":2,
+            "name":"pratama",
+            "nominal":1000000,
+            "category":"needed life"
+        },
+        {
+            "id":3,
+            "name":"putra",
+            "nominal":3500000,
+            "category":"shopping"
+        },
+        {
+            "id":4,
+            "name":"difad",
+            "nominal":3000000,
+            "category":"base salary"
+        },
+        {
+            "id":5,
+            "name":"ultra",
+            "nominal":4200000,
+            "category":"residence"
+        }
+    ]
+}
